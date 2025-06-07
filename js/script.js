@@ -8,10 +8,10 @@ let gameProgress = 0;
 const systems = {
     skeletal: {
         title: 'Sistema Óseo',
-        parts: ['Cráneo','Costillas', 'Húmero','Húmero', 'Radio', 'Radio','Fémur','Fémur', 'Tibia','Tibia' ],
+        parts: ['Cráneo','caja torácica', 'Húmero','Húmero', 'Radio', 'Radio','Fémur','Fémur', 'Tibia','Tibia' ],
         zones: [
             {name: 'Cráneo', x: 310, y: 50, width: 50, height: 40},
-            {name: 'Costillas', x: 310, y: 150, width: 40, height: 40},
+            {name: 'caja torácica', x: 310, y: 150, width: 40, height: 40},
             {name: 'Húmero', x: 350, y: 150, width: 15, height: 30},
             {name: 'Húmero', x: 260, y: 150, width: 15, height: 30},
             {name: 'Radio', x: 370, y: 190, width: 40, height: 30},
